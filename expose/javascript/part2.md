@@ -20,9 +20,9 @@
     E. `student.courseLoad[0]`
 13. A. '32' because the number 2 gets converted to the string '2' when concatenated with the string '3'
 
-    B. 3 because null gets converted to the number 0
+    B. 1 because the string '3' gets converted to the number 3
 
-    C. 3 because the string '3' gets converted to the number 3 and null gets converted to the number 0
+    C. 3 because null gets converted to the number 0
 
     D. '3null' because null gets converted to the string 'null' when concatenated with the string '3'
 
@@ -39,7 +39,7 @@
 
     C. true because '2' gets converted to the number 2
 
-    D. false because === 2 and '2' are of different types
+    D. false because 2 and '2' are of different types
 
     E. false because true gets converted to the number 1
 
@@ -47,7 +47,7 @@
 
 15.  Both check for equality, but == performs type conversion if needed (when comparing values of different types) while === does not perform type conversion.
     
-17) It will return `[2, 4, 6]`. In the `for` loop it calls `callback` which we passed in as `doSomething`, and `doSomething` returns the result of `array[i] * 2`. The `for` loop iterates through all elements of the array, so `newArr` ends up being `[2, 4, 6]` and is returned. 
+17. It will return `[2, 4, 6]`. In the `for` loop it calls `callback` which we passed in as `doSomething`, and `doSomething` returns the result of `array[i] * 2`. The `for` loop iterates through all elements of the array, so `newArr` ends up being `[2, 4, 6]` and is returned. 
 
 19. 1  
     4  
