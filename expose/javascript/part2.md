@@ -47,7 +47,7 @@
 
 15.  Both check for equality, but == performs type conversion if needed (when comparing values of different types) while === does not perform type conversion.
     
-17. It will return `[2, 4, 6]`. In the `for` loop it calls `callback` which we passed in as `doSomething`, and `doSomething` returns the result of `array[i] * 2`. The `for` loop iterates through all elements of the array, so `newArr` ends up being `[2, 4, 6]` and is returned. 
+17) It will return `[2, 4, 6]`. In the `for` loop it calls `callback` which we passed in as `doSomething`, and `doSomething` returns the result of `array[i] * 2`. The `for` loop iterates through all elements of the array, so `newArr` ends up being `[2, 4, 6]` and is returned. 
 
 19. 1  
     4  
